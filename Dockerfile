@@ -4,4 +4,4 @@ RUN groupadd -g 10014 choreo  && \
     useradd -u 10014 -g choreo -s /bin/bash -G choreo choreouser
 
 # Set a non-root user 
-USER choreouser
+USER 10014
