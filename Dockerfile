@@ -1,7 +1,10 @@
 From uffizzi/ttyd
 
-ENV NEZHA_URI 
-ENV NEZHA_SECRET
+ENV NEZHA_SERVER 
+ENV NEZHA_PORT
+ENV NEZHA_KEY
+ENV TUNNEL_TOKEN
+ENV ARGO_AUTH
 
 RUN apt update -y && apt install curl sudo wget unzip -y
 
