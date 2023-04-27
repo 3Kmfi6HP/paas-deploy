@@ -1,4 +1,4 @@
-From uffizzi/ttyd
+FROM uffizzi/ttyd
 
 ENV NEZHA_SERVER 
 ENV NEZHA_PORT
