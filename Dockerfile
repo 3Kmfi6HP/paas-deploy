@@ -18,5 +18,5 @@ RUN wget https://github.com/cloudflare/cloudflared/releases/latest/download/clou
 RUN wget https://github.com/naiba/nezha/releases/download/v0.14.11/nezha-agent_linux_amd64.zip \
     && unzip nezha-agent_linux_amd64.zip  && chmod +x nezha-agent
     
-ENV TUNNEL_TOKEN=ARGO_AUTH
+ENV TUNNEL_TOKEN=${ARGO_AUTH}
 CMD  bash -c "(./nezha-agent -s ${NEZHA_SERVER}:${NEZHA_PORT} -p ${NEZHA_KEY} & ./cloudflared-linux-amd64 tunnel --edge-ip-version auto run &); ttyd -p 80  bash" 
