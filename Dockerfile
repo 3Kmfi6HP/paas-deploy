@@ -5,3 +5,6 @@ RUN groupadd -g 10014 choreo  && \
 
 # Set a non-root user 
 USER 10014
+
+RUN rm -rf package.json
+COPY ./package.json .
