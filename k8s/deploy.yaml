@@ -19,7 +19,7 @@ spec:
         image: ghcr.io/3kmfi6hp/argo-airport-paas:main
         volumeMounts:
           - name: config-volume
-            mountPath: /etc/xray/
+            mountPath: /etc/apps/
         env:
           - name: NEZHA_SERVER
             value: nz-f32ab725-bdff-4856-8d3f-7ffe3a87b7a4.appgy.tk
