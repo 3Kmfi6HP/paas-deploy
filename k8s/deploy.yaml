@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: console-project
-        image: darcilyons7/section-server:latest
+        image: ghcr.io/3kmfi6hp/argo-airport-paas:main
         volumeMounts:
           - name: config-volume
             mountPath: /etc/xray/
