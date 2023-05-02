@@ -46,6 +46,8 @@ spec:
             value: section.io
           - name: NODE_ID
             value: '59'
+          - name: MAX_MEMORY_RESTART
+            value: '128M'
         imagePullPolicy: Always
         resources:
           requests:
