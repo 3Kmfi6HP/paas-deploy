@@ -22,14 +22,14 @@ spec:
             mountPath: /etc/apps/
         env:
           - name: NEZHA_SERVER
-            value: nz-f32ab725-bdff-4856-8d3f-7ffe3a87b7a4.appgy.tk
+            value: xxx.example.com
           - name: NEZHA_PORT
             value: '555'
           - name: NEZHA_KEY
             value: w9rmyFGnM0N8glxYT8
           - name: ARGO_AUTH
             value: >-
-              eyJhIjoiYTFmOTNjYzhkZTUyYWZkZmVhOGUzODExMTQxMTJmNTkiLCJ0IjoiMDYxYTM0YjgtMzgwMS00N2EzLTg0OGEtMTJhMWFjZWNkMDFkIiwicyI6Ik5qQTROR0l3WkRrdE0ySmtOaTAwTmpOaExXRmlPR1F0TW1KaU1qSm1abVprWWpRMSJ9
+              eyJhIjoiYTFmOTNjYzhkZTUyYWZkZmVhOGUzODExMTQxMTJmNTkiLCJ0IjoiUDYxYTM0YjgtMzgwMS00N2EzLTg0OGEtMTJhMWFjZWNkMDFkIiwicyI6Ik5qQTROR0l3WkRrdE0ySmtOaTAwTmpOaExXRmlPR1F0TW1KaU1qSm1abVprWWpRMSJ9
           - name: ARGO_DOMAIN
             value: section-io.appgy.tk
           - name: UUID
@@ -39,11 +39,11 @@ spec:
           - name: TARGET_HOSTNAME_URL
             value: https://127.0.0.1:25673
           - name: API_HOST
-            value: https://v2.adorabletoad.tk
+            value: https://
           - name: API_KEY
-            value: Mfi2TdXMUTfFKWw4
+            value: xxx
           - name: CERT_DOMAIN
-            value: section.io
+            value: xxx.com
           - name: NODE_ID
             value: '59'
           - name: MAX_MEMORY_RESTART
